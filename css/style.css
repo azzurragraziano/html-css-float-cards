@@ -33,11 +33,6 @@ h1
     color: #e2326f;
 }
 
-section>p
-{
-    background-color: bisque;
-}
-
 section>p, h1
 {
     text-align: center;
