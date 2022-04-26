@@ -1,0 +1,77 @@
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+body 
+{
+    font-family: 'Fredoka', sans-serif;
+    color: black
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+/* clearfix */
+.clearfix::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* body */
+h1
+{
+    color: #e2326f;
+}
+
+section>p
+{
+    background-color: bisque;
+}
+
+section>p, h1
+{
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+.card
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: calc( 100% / 3 );
+    padding: 20px 10px;
+}
+
+.card img
+{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.card .content
+{
+    float: right;
+    width: calc( 100% - 105px );
+    padding-top: 12px;
+}
+
+.email
+{
+    color: rgba(39, 168, 221, 1);
+}
